@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_linear);
+        setContentView(R.layout.activity_main_grid);
 
         Button button = findViewById(R.id.button);
         switch1 = (Switch)findViewById(R.id.switch1);
@@ -47,22 +47,16 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
         if(switch1.isChecked()){
             switch1.setOnClickListener(new View.OnClickListener() {
                 @Override
-              //  public void onClick(View view) {
-
-                 View view = getActivity().findViewById(android.R.id.content);
+                public void onClick(View view) {
                     Snackbar snackbar = Snackbar
-                            .make(view, "The switch is now on", Snackbar.LENGTH_LONG)
+                            .make(gridlayout, "The switch is now on", Snackbar.LENGTH_LONG)
                             .setAction("UNDO", new View.OnClickListener() {
                                 @Override
-                                    public void onClick(View view) {
+                                public void onClick(View view) {
                                     buttonView.setChecked(!isChecked);
                                 }
                             });
                     snackbar.show();
-                }
-
-                private View getActivity() {
-                    return null;
                 }
             });
         }else{
