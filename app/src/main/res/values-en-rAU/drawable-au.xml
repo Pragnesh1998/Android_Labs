@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Android_Labs</string>
-    <string name="hello_message">Hii!</string>
-    <string name="Button">I\’m a butt</string>
-    <string name="toast_message">Here is more information</string>
-    <string name="GUI">Look at my GUI</string>
-    <string name="check">Check this out!</string>
-    <string name="Switch">Switch on / off</string>
+    <string name="hello_message">Hii - 2</string>
+    <string name="Button">CANADA</string>
+    <string name="toast_message">Here is more information - 2</string>
+    <string name="GUI">Look at my GUI - 2</string>
+    <string name="check">Check this out - 2</string>
+    <string name="Switch">Switch on / off - 2</string>
     <string name="hint">Type here</string>
 </resources>
