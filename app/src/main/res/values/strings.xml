@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Android_Labs</string>
     <string name="hello_message">Hello World - 1</string>
     <string name="Button">INDIA</string>
@@ -18,7 +18,7 @@
     <string name="EmailTextViewText" translatable="false">Your email:</string>
     <string name="EmailHintText" translatable="false">Enter your email</string>
     <string name="PictureTextView" translatable="false">Your picture:</string>
-    <string name="ImagePictureTextView" translatable="false">Click the button above to take a picture</string>
+
 
     <string name="email" translatable="false">Enter your email address:</string>
     <string name="t_email" translatable="false">Type email here</string>
@@ -31,5 +31,20 @@
     <string name="pic" translatable="false">your picture:</string>
     <string name="click" translatable="false">Click the button above to take a picture</string>
     <string name="Button1" translatable="false">login</string>
+    <string name="goToChatBtn" translatable="false">ChatRoomActivity</string>
+    <string name="ImagePictureTextView" translatable="false">Click the button above to take a picture</string>
 
+
+    <string name="ButtonText" translatable="false">I\'m a button</string>
+    <string name="ButtonText2" translatable="false">Button</string>
+    <string name="CheckBoxText" translatable="false">Check this out!</string>
+    <string name="SwitchText" translatable="false">Switch on / off</string>
+    <string name="EditText" translatable="false">Type your answer here</string>
+
+
+
+    <string name="GoToChatText" translatable="false">Go To Chat</string>
+    <string name="SendText" translatable="false">Send</string>
+    <string name="ReceiveText" translatable="false">Receive</string>
+    <string name="ChatHint" translatable="false">Type here</string>
 </resources>

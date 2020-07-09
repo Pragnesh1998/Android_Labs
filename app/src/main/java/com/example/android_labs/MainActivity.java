@@ -37,10 +37,10 @@ public class MainActivity extends AppCompatActivity {
         loginBtn = (Button) findViewById(R.id.button);
         loginBtn.setOnClickListener(c -> {
 
-            Intent goToProfile = new Intent(MainActivity.this, ProfileActivity.class);
-            EditText td = (EditText) findViewById(R.id.pass);
-            goToProfile.putExtra("emailTyped", td.getText().toString());
-            startActivityForResult(goToProfile, 345);
+            Intent profilePage = new Intent(MainActivity.this, ProfileActivity.class);
+            //EditText td = (EditText) findViewById(R.id.pass);
+            profilePage.putExtra("emailTyped", emailField.getText().toString());
+            startActivityForResult(profilePage, 345);
 
         });
         }
