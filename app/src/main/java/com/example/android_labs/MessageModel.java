@@ -3,6 +3,7 @@ package com.example.android_labs;
 public class MessageModel {
     public String message;
     public boolean isSend;
+    public long messageID;
 
     public MessageModel(String message, boolean isSend) {
         this.message = message;
@@ -26,5 +27,13 @@ public class MessageModel {
 
     public void setSend(boolean send) {
         isSend = send;
+    }
+
+    public long getMessageID() {
+        return messageID;
+    }
+
+    public void setMessageID(long messageID) {
+        this.messageID = messageID;
     }
 }
