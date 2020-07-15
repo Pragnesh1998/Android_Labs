@@ -24,7 +24,7 @@ public class ChatRoomActivity extends AppCompatActivity {
     List<MessageModel> listMessage = new ArrayList<>();
     Button sendBtn;
     Button receiveBtn;
-    Database db;
+    //Database db;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,8 +35,8 @@ public class ChatRoomActivity extends AppCompatActivity {
         sendBtn = (Button)findViewById(R.id.SendBtn);
         receiveBtn = (Button)findViewById(R.id.ReceiveBtn);
 
-        db = new Database(this);
-        db.viewData();
+        //db = new Database(this);
+        //db.viewData();
 
 
 
@@ -47,10 +47,10 @@ public class ChatRoomActivity extends AppCompatActivity {
             editText.setText("");
             ChatAdapter adt = new ChatAdapter(listMessage, getApplicationContext());
             listView.setAdapter(adt);
-            db.insertData(message, true);
-            editText.setText("");
-            listMessage.clear();
-            db.viewData();
+            //db.insertData(message, true);
+            //editText.setText("");
+            //listMessage.clear();
+           // db.viewData();
         });
 
         receiveBtn.setOnClickListener(c -> {
@@ -60,33 +60,34 @@ public class ChatRoomActivity extends AppCompatActivity {
             editText.setText("");
             ChatAdapter adt = new ChatAdapter(listMessage, getApplicationContext());
             listView.setAdapter(adt);
-            if (!message.equals("")) {
-                db.insertData(message, false);
-                editText.setText("");
-                listMessage.clear();
-                db.viewData();
-            }
-        });
+            //if (!message.equals("")) {
+                //db.insertData(message, false);
+                //editText.setText("");
+                //listMessage.clear();
+                //db.viewData();
+           // }
+       });
 
 
 
         Log.d("ChatRoomActivity","onCreate");
 
     }
-    private void viewData() {
-        Cursor cursor = db.viewData();
 
-        if (cursor.getCount() != 0) {
-            while (cursor.moveToNext()) {
-                MessageModel model = new MessageModel(cursor.getString(1), cursor.getInt(2) == 0);
-                listMessage.add(model);
-                ChatAdapter adt = new ChatAdapter(listMessage, getApplicationContext());
-                listView.setAdapter(adt);
+    private void viewData() {
+        //Cursor cursor = db.viewData();
+
+        //if (cursor.getCount() != 0) {
+            //while (cursor.moveToNext()) {
+               // MessageModel model = new MessageModel(cursor.getString(1), cursor.getInt(2) == 0);
+                //listMessage.add(model);
+               // ChatAdapter adt = new ChatAdapter(listMessage, getApplicationContext());
+                //listView.setAdapter(adt);
 
             }
         }
-    }
+    //}
 
 
 
-}
+//}

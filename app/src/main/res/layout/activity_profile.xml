@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_weight="1"
@@ -8,21 +8,18 @@
 
     <TextView
 
-        android:id="@+id/profile"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/profile"
         android:textSize="17.5sp" />
 
     <TextView
-        android:id="@+id/nname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/name"
         android:textSize="17.5sp" />
 
     <EditText
-        android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/hname"
@@ -32,7 +29,6 @@
         android:autofillHints="" />
 
     <TextView
-        android:id="@+id/eemail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/yemail"
@@ -49,7 +45,6 @@
         android:importantForAutofill="no" />
 
     <TextView
-        android:id="@+id/yypicture"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/pic"
@@ -64,7 +59,6 @@
 
     <TextView
 
-        android:id="@+id/click"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/click"
@@ -77,8 +71,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:text="@string/GoToChatText"
-        android:layout_below="@+id/ImagePictureTextView"/>
+        android:text="@string/GoToChatText"/>
 
 
-</LinearLayout>
+
+
+
+</RelativeLayout>

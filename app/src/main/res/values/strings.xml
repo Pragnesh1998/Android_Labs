@@ -1,23 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Android_Labs</string>
-    <string name="hello_message">Hello World - 1</string>
-    <string name="Button">INDIA</string>
-    <string name="toast_message">Here is more information - 1</string>
-    <string name="GUI">Look at my GUI1</string>
-    <string name="check">Check this out - 1</string>
-    <string name="Switch">Switch on / off - 1</string>
-    <string name="hint">Type here</string>
-    <string name="TextViewText" translatable="false">Here are my widgets:</string>
-    <string name="Lab3TextView1" translatable="false">Enter your Email address:</string>
-    <string name="Lab3TextView2" translatable="false">Type your password:</string>
-    <string name="Lab3EmailHint" translatable="false">Type email here:</string>
-    <string name="Lab3LoginBtnText" translatable="false">Login</string>
-    <string name="ProfileText" translatable="false">Your profile</string>
-    <string name="NameText" translatable="false">Your name:</string>
-    <string name="NameHintText" translatable="false">Enter your name</string>
-    <string name="EmailTextViewText" translatable="false">Your email:</string>
-    <string name="EmailHintText" translatable="false">Enter your email</string>
-    <string name="PictureTextView" translatable="false">Your picture:</string>
 
 
     <string name="email" translatable="false">Enter your email address:</string>
@@ -31,20 +13,16 @@
     <string name="pic" translatable="false">your picture:</string>
     <string name="click" translatable="false">Click the button above to take a picture</string>
     <string name="Button1" translatable="false">login</string>
-    <string name="goToChatBtn" translatable="false">ChatRoomActivity</string>
-    <string name="ImagePictureTextView" translatable="false">Click the button above to take a picture</string>
-
-
-    <string name="ButtonText" translatable="false">I\'m a button</string>
-    <string name="ButtonText2" translatable="false">Button</string>
-    <string name="CheckBoxText" translatable="false">Check this out!</string>
-    <string name="SwitchText" translatable="false">Switch on / off</string>
-    <string name="EditText" translatable="false">Type your answer here</string>
-
 
 
     <string name="GoToChatText" translatable="false">Go To Chat</string>
     <string name="SendText" translatable="false">Send</string>
     <string name="ReceiveText" translatable="false">Receive</string>
     <string name="ChatHint" translatable="false">Type here</string>
+
+    <string name="GoToWeather" translatable="false">Go to Weather page</string>
+    <string name="current_temp" translatable="false">current temp</string>
+    <string name="min_temp" translatable="false">min temp</string>
+    <string name="max_temp" translatable="false">max temp</string>
+    <string name="uv" translatable="false">uv</string>
 </resources>

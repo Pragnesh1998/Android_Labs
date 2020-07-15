@@ -14,6 +14,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/SendBtn"/>
+
+
     <Button
         android:id="@+id/SendBtn"
         android:layout_width="wrap_content"
@@ -21,6 +23,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:text="@string/SendText"/>
+
+
     <EditText
         android:id="@+id/ChatEditText"
         android:layout_width="wrap_content"
@@ -31,6 +35,7 @@
         android:hint="@string/ChatHint"
         android:inputType="textImeMultiLine"
         android:importantForAutofill="no" />
+
 
     <Button
         android:id="@+id/ReceiveBtn"

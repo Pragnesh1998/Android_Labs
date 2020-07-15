@@ -152,6 +152,6 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences.Editor editor = share.edit();
         String typeEmail  = emailField.getText().toString();
         editor.putString("ReserveName", typeEmail);
-        editor.commit();
+        editor.apply();
     }
 }
